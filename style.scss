@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header {
+    background: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
+    padding: 20px 0 240px;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 120px;
+    }
+
+
+    &__points {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        margin-left: 15px;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #F7F7F7;
+    }
+
+    &__logo {
+        display: flex;
+        width: 70px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__nav-link {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 60px;
+        margin-right: 60px;
+        color: #F7F7F7;
+    }
+
+
+    &__img {
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        margin-right: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__top-btn {
+        font-size: 23px;
+        font-weight: 400;
+        border-radius: 5px;
+        border: 2px solid #CD6326;
+        width: 74px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        color: #F7F7F7;
+        padding: 2px 23px;
+        box-sizing: content-box;
+    }
+
+    &__content {
+        max-width: 275px;
+    }
+
+    &__title {
+        font-family: Open Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 50px;
+        color: #F7F7F7;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 60px;
+        background-color: #CD6326;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 5px;
+        color: #F7F7F7;
+        cursor: pointer;
+    }
+}
