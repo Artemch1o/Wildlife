@@ -171,6 +171,40 @@ body {
     }
 
 
+    &__subscription-title {
+        margin-bottom: 60px;
+        text-align: center;
+        color: #333;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40.5px;
+    }
+
+    &__subscription-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn {
+        width: 120px;
+        background: #CD6326;
+        border: 1px solid #CD6326;
+        border-radius: 0 5px 5px 0;
+        padding: 15px;
+        text-transform: uppercase;
+        color: white;
+        border-left: none;
+        font-size: 16px;
+    }
+
+    &__mail {
+        width: 540px;
+        padding: 2px 15px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+
     //слайдер 
 
     .articles__slider {
