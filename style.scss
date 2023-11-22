@@ -82,6 +82,7 @@ body {
         color: #F7F7F7;
         padding: 2px 23px;
         box-sizing: content-box;
+        cursor: pointer;
     }
 
     &__content {
@@ -192,7 +193,6 @@ body {
         border: 1px solid #CD6326;
         border-radius: 0 5px 5px 0;
         padding: 15px;
-        text-transform: uppercase;
         color: white;
         border-left: none;
         font-size: 16px;
