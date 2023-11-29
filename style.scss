@@ -80,6 +80,32 @@ body {
         line-height: 60px;
         margin-right: 60px;
         color: #F7F7F7;
+        position: relative;
+        cursor: pointer;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: -3px;
+            width: 0;
+            height: 2px;
+            background-color: #E39128;
+            transition: width 0.5s;
+        }
+
+        &:hover:after {
+            content: "";
+            width: 100%;
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            height: 2px;
+            background-color: #CD6326;
+            transition: width 0.5;
+        }
     }
 
 
@@ -335,6 +361,32 @@ body {
         font-weight: 400;
         line-height: 60px;
         color: #F7F7F7;
+        position: relative;
+        cursor: pointer;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: -3px;
+            width: 0;
+            height: 2px;
+            background-color: #E39128;
+            transition: width 0.5s;
+        }
+
+        &:hover:after {
+            content: "";
+            width: 100%;
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            height: 2px;
+            background-color: #CD6326;
+            transition: width 0.5;
+        }
     }
 
     &__socials {
@@ -342,10 +394,28 @@ body {
     }
 
     &__socials-picthers {
-        color: #F7F7F7;
+
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        &:hover {
+            transform: scale(1.2);
+            border: solid 2px #CD6326;
+        }
 
         &:not(:last-child) {
             margin-right: 20px;
         }
     }
+
+
 }
